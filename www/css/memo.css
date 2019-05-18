@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+}
+
+#primerfondo {
+  width: 100%;
+  height: 985px;
+  background-image: url("http://i.imgsafe.org/f060414.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1 {
+  font: normal 400 100px 'Titan One', cursive;
+  color: #FFF;
+  margin: auto;
+  position: relative;
+  top: 5%;
+  text-shadow: 2px 2px 2px grey;
+}
+
+h2 {
+  font: normal 400 60px 'Titan One', cursive;
+  color: #FFF;
+  margin: auto;
+  position: relative;
+  top: 5%;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.llave1 {
+  font-size: 140px;
+  opacity: 0.6;
+}
+
+.llave2 {
+  font-size: 80px;
+  opacity: 0.6;
+}
+
+#imagen {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 28%;
+}
+
+#logotipos {
+  width: 800px;
+}
+
+#texto1 {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: -22%;
+}
+
+#enunciado1 {
+  font: normal 400 20px 'Roboto', sans-serif;
+  color: #FFF;
+  text-shadow: 1px 1px 1px grey;
+}
+
+#texto2 {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  top: 15%;
+}
+
+#enunciado2 {
+  font: normal 400 15px 'Roboto', sans-serif;
+  color: #FFF;
+  text-align: justify;
+  padding: 25%;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-shadow: 1px 1px 1px grey;
+}
+
+#empezar {
+  font: normal 400 18px 'Roboto', sans-serif;
+  width: 100px;
+  padding: 8px;
+  position: relative;
+  margin: auto;
+}
+
+#inicioboton {
+  position: relative;
+  top: 25%;
+}
+
+#segundofondo {
+  width: 100%;
+  height: 985px;
+  background-image: url("http://i.imgsafe.org/242c9d6.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  text-align: center;
+}
+
+#botones {
+  position: relative;
+  top: -35%;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#jugar,
+#reiniciar {
+  font: normal 400 18px 'Roboto', sans-serif;
+  width: 100px;
+  padding: 8px;
+}
+
+#imagenes {
+  margin: auto;
+  text-align: center;
+  width: 45%;
+  position: relative;
+  top: 18%;
+}
+
+#imagenes div {
+  width: 150px;
+  height: 170px;
+  background: #FFF;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 2px 2px 2px grey;
+}
+
+img {
+  opacity: 0;
+}
+
+.opacidad {
+  opacity: 1;
+}

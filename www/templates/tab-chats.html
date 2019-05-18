@@ -1,5 +1,78 @@
 <ion-view view-title="Juego... Info...">
 	<ion-content class="padding">
+		<link rel="stylesheet" href="../css/memo.css">
+		<script type="../js/memo.js"></script>
+
+
+		<div id="primero">
+  <div id="primerfondo">
+    <h1>
+      <span class="llave1">{</span>JUEGO DE CARTAS<span class="llave1">}</span>
+    </h1>
+    <h2>
+      <span class="llave2"><</span>HAZ MEMORIA<span class="llave2">></span>
+    </h2>
+    <div id="inicioboton">
+      <a href="#accesojuego">
+        <button id="empezar">Iniciar</button>
+      </a>
+    </div>
+    <div id="imagen">
+      <img id="logotipos" src="http://i.imgsafe.org/aa4c51c.png">
+    </div>
+    <div id="texto1">
+      <div id="enunciado1">¿QUIERES APRENDER A CREAR TU PROPIA PÁGINA WEB?
+        <br>Usar estas tecnologías será imprescindible para poder realizarla.
+        <br>¿A que no existe mejor forma para familiarizarte con ellas que jugando?
+        <br>¡EMPIEZA A HACER MEMORIA!
+        <br>Pulsa el siguiente botón para empezar a jugar tu primera partida.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="segundo">
+  <div id="segundofondo">
+    <div id="accesojuego"></div>
+    <h2>
+      <span class="llave2"><</span>HAZ MEMORIA<span class="llave2">></span>
+    </h2>
+    <div id="imagenes">
+      <div>
+        <img id="img1" class="carta" src="" width="150px">
+      </div>
+      <div>
+        <img id="img2" class="carta" src="" width="150px">
+      </div>
+      <div>
+        <img id="img3" class="carta" src="" width="150px">
+      </div>
+      <div>
+        <img id="img4" class="carta" src="" width="150px">
+      </div>
+      <div>
+        <img id="img5" class="carta" src="" width="150px">
+      </div>
+      <div>
+        <img id="img6" class="carta" src="" width="150px">
+      </div>
+    </div>
+    <div id="botones">
+      <button id="jugar" onClick="jugar()">Jugar</button>
+      <button id="reiniciar" onClick="reiniciar()">Reiniciar</button>
+    </div>
+    <div id="texto2">
+      <div id="enunciado2">¡INSTRUCCIONES!
+        <br>
+        <br>1. Pulsar siempre JUGAR para iniciar una partida.
+        <br>2. Al completar la partida, las cartas se ordenan automáticamente de forma aleatoria.
+        <br>3. Antes de iniciar la partida, se puede pulsar REINICIAR para ordenar aleatoriamente las cartas.
+        <br>3. Si se abandona la partida, pulsar REINICIAR para ordenar nuevamente las cartas.
+      </div>
+    </div>
+  </div>
+</div>
+
 
 	</ion-content>
 </ion-view>
