@@ -3,6 +3,12 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
+
+#Adn {
+  margin: 10%;
+  padding: 10%;
+  box-sizing: border-box;
+}
 /* WebKit and Opera browsers */
 
 
