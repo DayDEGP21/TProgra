@@ -1,7 +1,7 @@
 /* Empty. Add your own CSS if you like */
 .padding {
-	background: url();
-	background-: ;
-	background-size: ;
-	-webkit-background-size: ;
+	background: url(../img/f1.png);
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
 }
