@@ -1,153 +1,133 @@
-body {
-  margin: 0;
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-#primerfondo {
-  width: 100%;
-  height: 985px;
-  background-image: url("http://i.imgsafe.org/f060414.png");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  text-align: center;
+.vista-juego{
+    background: #FF9090;
 }
 
-h1 {
-  font: normal 400 100px 'Titan One', cursive;
-  color: #FFF;
-  margin: auto;
-  position: relative;
-  top: 5%;
-  text-shadow: 2px 2px 2px grey;
-}
+.todo {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+} 
 
-h2 {
-  font: normal 400 60px 'Titan One', cursive;
-  color: #FFF;
-  margin: auto;
-  position: relative;
-  top: 5%;
-  text-shadow: 2px 2px 2px grey;
-}
-
-.llave1 {
-  font-size: 140px;
-  opacity: 0.6;
-}
-
-.llave2 {
-  font-size: 80px;
-  opacity: 0.6;
-}
-
-#imagen {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: 28%;
-}
-
-#logotipos {
-  width: 800px;
-}
-
-#texto1 {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: -22%;
-}
-
-#enunciado1 {
-  font: normal 400 20px 'Roboto', sans-serif;
-  color: #FFF;
-  text-shadow: 1px 1px 1px grey;
-}
-
-#texto2 {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  margin: auto;
-  top: 15%;
-}
-
-#enunciado2 {
-  font: normal 400 15px 'Roboto', sans-serif;
-  color: #FFF;
-  text-align: justify;
-  padding: 25%;
-  padding-top: 0;
-  padding-bottom: 0;
-  text-shadow: 1px 1px 1px grey;
-}
-
-#empezar {
-  font: normal 400 18px 'Roboto', sans-serif;
-  width: 100px;
-  padding: 8px;
-  position: relative;
-  margin: auto;
-}
-
-#inicioboton {
-  position: relative;
-  top: 25%;
-}
-
-#segundofondo {
-  width: 100%;
-  height: 985px;
-  background-image: url("http://i.imgsafe.org/242c9d6.png");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
-button {
-  margin: 10px;
-  text-align: center;
-}
-
-#botones {
-  position: relative;
-  top: -35%;
-  width: 50%;
-  margin: auto;
-  text-align: center;
-}
-
-#jugar,
-#reiniciar {
-  font: normal 400 18px 'Roboto', sans-serif;
-  width: 100px;
-  padding: 8px;
-}
-
-#imagenes {
-  margin: auto;
-  text-align: center;
-  width: 45%;
-  position: relative;
-  top: 18%;
-}
-
-#imagenes div {
-  width: 150px;
-  height: 170px;
-  background: #FFF;
-  margin: 10px;
-  padding: 10px;
-  cursor: pointer;
-  display: inline-block;
-  box-shadow: 2px 2px 2px grey;
+.titulo {
+   font-size: 80px;
+   font-family: Lucida Console, Courier, monospace;
+   color: rgb(217, 103, 29);
+  
 }
 
 img {
-  opacity: 0;
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px;
+}
+.memoria{
+
+  margin: 50px auto;
+
+  border-radius: 10px;
+  position: relative;
+  background: #FFFA62;
 }
 
-.opacidad {
-  opacity: 1;
+.memoria:after  {
+    content: "";
+    display: block;
+    clear: both;
+}
+ 
+.carta {
+    width: 14%;
+    margin: 1% 1%;
+    height: 150px;
+    border-radius: 8px;
+    float: left;
+    cursor: pointer;
+  
+  
+}
+
+.inner-wrap {
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;.
+    -webkit-transition: all 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+
+.frente {
+    background: #FFCF7F top center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    z-index: 2;
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+  transition: background 0.5s;
+}
+
+.flipped {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+
+}
+
+.frente, .atras {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.atras {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    text-align: center;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.30);
+  
+}
+
+.contador p {
+    font-size: 30px;
+    font-family: Lucida Console, Courier, monospace;
+    color: rgb(217, 103, 29);
+}
+
+.contador {
+    position: absolute;
+    right: -185px;
+    top: 58px;
+}
+p.counter {
+    text-align: center;
+    font-family: Lucida Console, Courier, monospace;
+}
+
+
+.todo > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.frente:hover {
+  background: #E8A868;
+  cursor: pointer;
 }
