@@ -1,4 +1,4 @@
-
+/**
 #prin {
 	width: 1000px;
 	max-width: 1000px;
@@ -106,3 +106,17 @@ header {
  p {
  	color: #FFF;
  }
+**/
+.info {
+	 background: url(http://pantry-magic.com/wp-content/uploads/2018/11/pastel-background-hd-awesome-pastel-hd-image-simple-bts-desktop-wallpaper-hd-photo-collection-of-pastel-background-hd.jpg); 
+	 height: auto;
+	 background-size: cover;
+	 background-position: center;
+	-webkit-background-size: cover;
+
+}
+
+.ti {
+	text-align: center;
+
+}
